@@ -1,0 +1,121 @@
+body {
+    text-align: center;
+    font-family: 'Kalam-Regular', cursive;
+    background: linear-gradient(137deg, rgb(87, 115, 240), rgb(252, 127, 227), rgb(54, 228, 255));
+    color: #ffff;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1,
+h3,
+h4,
+p {
+    text-shadow: 0px 0px 1px black;
+}
+
+#title {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 149px 10px 149px;
+}
+
+#start {
+    margin: 0;
+    background: #EFB0C9;
+    border-radius: 6px;
+    padding: 5px, 10px;
+
+}
+
+@font-face {
+    src: url("Kalam-Regular.ttf");
+    font-family: Kalam-Regular;
+}
+
+#avatar {
+    width: 200px;
+    border-radius: 50%;
+    border: 7px solid #EFB0C9;
+}
+
+.img {
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    height: 400px;
+    background-image: url("gg.jpg");
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+#img-fr:hover {
+    background-image: url("ludi.jpg");
+    transition-duration: 0.6s;
+
+}
+
+#img-sec-hot:hover {
+    background-image: url("keti2.jpg");
+    transition-duration: 0.6s;
+
+}
+
+#img-third:hover {
+    background-image: url("lovee.jpg");
+    transition-duration: 0.6s;
+
+}
+
+#img-fourth:hover {
+    background-image: url("high.jpg");
+    transition-duration: 0.6s;
+
+}
+
+.img-last {
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    height: 200px;
+    background-image: url("gg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+#last:hover {
+    background-image: url("hug.gif");
+    transition-duration: 0.6s;
+}
+
+
+#footer {
+    width: 500px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+    font-style: italic;
+}
+
+a:hover {
+    color: blue;
+    transition-duration: 0.3s;
+}
+
+.gift {
+    text-shadow: 0px 0px 1px black;
+    margin-top: 30px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+
+}
